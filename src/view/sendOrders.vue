@@ -176,8 +176,8 @@ export default {
           "reservationStartTime": "string",
           "retailPrice": "string",
           "updateTime": "2019-04-29T09:18:24.253Z",   
-          "userCellphone": "string",
-          "userName": "string"
+          "userCellphone": this.customerPhone,
+          "userName": this.customerName
       })
         .then(res=>{
           console.log(res);
