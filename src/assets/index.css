@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.base{
+    background-color: #ededed ;
+    height: 100vh;
+    /* padding: 50px 0 0 ; */
+}
+.bgc-ededed{
+    background-color: #ededed ;
+    /* height: 100vh; */
+    /* padding: 50px 0 0 ; */
+}
+/* 轮播图active */
+.van-swipe__indicator--active{
+    background:#0edc7a ;
+}
+/*登录 输入框bgc */
+.login .mint-field-core{
+    background-color: #55505f  !important;
+    color: #c8c8c8 !important;
+}
+.login .van-cell--center,.van-field__control{
+    background-color: #55505f  !important;
+    color: #c8c8c8 !important;
+}
+/* 修改密码输入款 */
+.ChangePassword .van-field__control,.pt .van-field__control{
+    background-color: #fff  !important;
+    color: #333 !important;
+}
+/* 登录删除按钮 */
+.loginBox .mint-field-clear .mintui-field-error{
+    color: #fff !important;
+    opacity: 1 !important;
+}
+/* 验证码下边框 */
+.van-cell-group{
+    position: relative;
+}
+.van-cell-group::after{
+    /* border:  0 ;
+    border-bottom: 2px solid #c8c8c8 !important; */
+     position: absolute;
+     content: "";
+     clear: both;
+     height: 1px ;
+     width: 100% ;
+     background-color: #c8c8c8; 
+     top: 100%  ;
+     left: 50%  ;
+     transform: translate(-50% );
+}
+
+.pb{
+    padding-bottom: 45px;
+}
+.pt{
+    padding-top: 45px;
+}
+.pt .van-cell-group{
+    margin-top:  10px;
+}
+/* 列表样式 */
+/* .myList{
+    width: 100% ;
+}
+.myList li{
+  padding: 0 20px  ;
+  width: 100%;
+  height: 80px ;
+  background-color: #fff;
+  margin-top: 15px;
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center ;
+}
+.myList li span{
+    font-size: 26px ;
+    color: #333 ;
+ }
+ .myList li div{
+   display: flex ;
+   align-items: center ;
+ }
+ .myList li  div span{
+     margin-right: 10px ;
+   }
+
+.PasswordOption{
+    margin-top: 90px;
+} */
+
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+    line-height: 0;
+}
+i{
+    font-style: normal ;
+}
+.AddAddress .van-field__control{
+   background: #fff !important;
+}
+
+.enterpriseTxt .van-uploader{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+}
+.enterpriseTxt .van-uploader .van-icon{
+    position:absolute;
+    top: 35%;
+    transform: translate(-50%) ;
+    font-size: 50px;
+
+}
+.enterpriseTxt .van-icon-photograph:before{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+
+.RechargeAmountList  .methodList li{
+        width: 33% !important;
+}
+/* 用户协议 */
+
+
+.passwordFreeLogin .van-cell-group::after {
+    position: absolute;
+    content: "";
+    clear: both;
+    height: 1px;
+    width: 100%;
+    background-color: #c8c8c8;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+
+.swipeBox .van-swipe__indicators{
+    bottom: 50px;
+}
+.PlaceOrderBox .van-button--primary{
+    background-color:  rgba(14, 220, 122,0.1) !important;
+    color: #07c160 !important;
+  }
+        
